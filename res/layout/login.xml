@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/app"
+        android:textSize="34sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittext_login_phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_phone"
+        android:imeOptions="actionGo"
+        android:inputType="phone"
+        android:maxLength="40" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_password"
+        android:imeOptions="actionSearch"
+        android:inputType="textPassword"
+        android:maxLength="40" >
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tips" >
+    </TextView>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/login" >
+    </Button>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_gotoRegister"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/newuser_register"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_login_getcode"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/codeToLogin"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+</LinearLayout>

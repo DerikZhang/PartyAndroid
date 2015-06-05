@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_show_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greetings" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext_set_userName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPersonName" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_set_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/sex"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radiobutton_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobutton_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext_set_age"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="number" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext_set_job"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/motto" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext_set_motto"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marital_status" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_set_maritalStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radiobutton_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/single" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobutton_married"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/married" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobutton_divorced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/divorced" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobutton_widowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widowed" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_save_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+</LinearLayout>

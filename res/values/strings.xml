@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Party</string>
+    <string name="app">商  聚</string>
+    <string name="enter_phone">请输入您的手机号</string>
+    <string name="enter_password">请输入您的密码</string>
+    <string name="getcode">获取验证码</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="create">创建新party</string>
+    <string name="join">加入party</string>
+    <string name="information">设置个人资料</string>
+    <string name="greetings">手机用户您好！</string>
+    <string name="username">姓名</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="age">年龄</string>
+    <string name="job">职业</string>
+    <string name="motto">座右铭</string>
+    <string name="save">保存</string>
+    <string name="partyname">Party名称</string>
+    <string name="introduction">简 介</string>
+    <string name="function">功能分类</string>
+    <string name="location">定位信息</string>
+    <string name="QRcode">二维码</string>
+    <string name="joinparty">进入此party</string>
+    <string name="list">party成员列表</string>
+    <string name="get_location">获取位置信息</string>
+    <string name="newuser_register">新用户注册</string>
+    <string name="tips">提示：若您忘记密码或者尚未设置密码，请通过获取短信验证码登陆</string>
+    <string name="marital_status">婚姻状况</string>
+    <string name="single">单身</string>
+    <string name="married">已婚</string>
+    <string name="divorced">离异</string>
+    <string name="widowed">丧偶</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_create_party">CreatePartyActivity</string>
+    <string name="title_activity_in_party">InPartyActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="sex">sex</string>
+    <string name="title_activity_handle_nfc">HandleNFCActivity</string>
+    <string name="title_activity_nfcwriter">NFCWriterActivity</string>
+    <string name="title_activity_show_party">ShowPartyActivity</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="inquire">确认手机号码</string>
+    <string name="title_activity_set_password">SetPasswordActivity</string>
+    <string name="button_setPassword">设置密码</string>
+    <string name="button_skip">跳过</string>
+    <string name="password">密码     </string>
+    <string name="re_password">确认密码</string>
+    <string name="input_tip">请输入4~20位密码</string>
+    <string name="input_tip_again">请再次输入密码</string>
+    <string name="button_write_NFC">生成party标签</string>
+    <string name="MIME">image/jpeg</string>
+    <string name="codeToLogin">验证码登陆</string>
+
+</resources>

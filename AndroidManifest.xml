@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.party.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <!-- NFC permission -->
+    <uses-permission android:name="android.permission.NFC" />
+    
+    <!-- network permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".CreatePartyActivity"
+            android:label="@string/title_activity_create_party" >
+        </activity>
+        <activity
+            android:name=".InPartyActivity"
+            android:label="@string/title_activity_in_party" >
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name=".HandleNFCActivity"
+            android:label="@string/title_activity_handle_nfc" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="@string/MIME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NFCWriterActivity"
+            android:label="@string/title_activity_nfcwriter" >
+        </activity>
+        <activity
+            android:name=".ShowPartyActivity"
+            android:label="@string/title_activity_show_party" >
+        </activity>
+        <activity
+            android:name=".SetPasswordActivity"
+            android:label="@string/title_activity_set_password" >
+        </activity>
+    </application>
+
+</manifest>
